@@ -10,9 +10,9 @@ body {
     /* position: absolute; */
     /* width: 575px; */
     width: 575px;
-    height: 385px;
+    height: 100vh;
     margin: 0 auto;
-    border: 1px solid red;
+    border-radius: 5px;
 }
 
 h3 {
@@ -50,7 +50,7 @@ h3 {
     line-height: 126.67px;
     font-size: 90px;
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 #home--score {
