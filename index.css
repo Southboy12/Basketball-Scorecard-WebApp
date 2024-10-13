@@ -5,4 +5,87 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    /* position: absolute; */
+    /* width: 575px; */
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
+
+h3 {
+    /* position: absolute; */
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+#home {
+    left: 85px;
+}
+
+#guest {
+    left: 340px;
+}
+
+.score {
+    /* position: absolute; */
+    width: 155px;
+    height: 120px;
+    top: 90px;
+    border-radius: 5px;
+    background: #080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-weight: 400;
+    line-height: 126.67px;
+    font-size: 90px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#home--score {
+    left: 82px;
+}
+
+#guest--score {
+    left: 337px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 155px;
+    height: 45px;
+    top: 300px;
+}
+
+#home--buttons {
+    left: 82px;
+}
+
+#guest--buttons {
+    left: 337px;
+}
+
+button {
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background: inherit;
+    border-radius: 5px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+
+

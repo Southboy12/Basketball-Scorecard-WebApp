@@ -1,15 +1,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
     </head>
     <body>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
+            <div class="section">
+                <h3 id="home">HOME</h3>
+                <h2 class="score" id="home--score">0</h2>
+                <div class="buttons" id="home--buttons">
+                    <button class="button">+1</button>
+                    <button class="button">+2</button>
+                    <button class="button">+3</button>
+                </div>
             </div>
-            <div>
-                <h3>GUEST</h3>
+            <div class="section">
+                <h3 id="guest">GUEST</h3>
+                <h2 class="score" id="guest--score">0</h2>
+                <div class="buttons" id="guest--buttons">
+                    <button class="button">+1</button>
+                    <button class="button">+2</button>
+                    <button class="button">+3</button>
+                </div>
             </div>
+
         </div>
         <script src="index.js"></script>
     </body>
